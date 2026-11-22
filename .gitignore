@@ -1,0 +1,49 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# IDE and local agent state
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# Runtime outputs
+build/
+install/
+log/
+logs/
+test_results/
+test_results_old/
+
+# Model weights and datasets
+models/
+pretrained/
+pretrained_llm/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.tfevents.*
+
+# Large/generated data
+DiNBV_Grasp_sim/train/output/
+DiNBV_Grasp_sim/train/data/
+DiNBV_Grasp_sim/data_collection/data/
+DiNBV_Grasp_sim/data_collection/asset/
+DiNBV_Grasp_sim/test/test_results/
+DiNBV_Grasp_sim/test/test_results_old/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+/data_collection/data/
+!/data_collection/data/readme.md  # 保留readme.md作为参考
+!/data_collection/data/test_data_camera_distances_v2/148_Faucet_0_pulling_10/
+/test/test_results/
+/test/test_results_old/
+/train/data/
+data_collection/asset/

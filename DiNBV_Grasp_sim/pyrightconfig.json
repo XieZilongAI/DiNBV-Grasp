@@ -1,0 +1,21 @@
+{
+  "exclude": [
+    "**/data_collection/data",
+    "**/data_collection/asset",
+    "**/test/test_results",
+    "**/test/test_results_old",
+    "**/train/data",
+    "**/train/exp",
+    "**/__pycache__",
+    "**/.git",
+    "**/node_modules",
+    "**/.cursor"
+  ],
+  "include": [
+    "."
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.8"
+}
+
